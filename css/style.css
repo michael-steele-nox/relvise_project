@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 html, body {
   height: 100%;
   line-height: 1;
+  background: #fafafa;
   font-size: 14px;
   color: #252b42;
   font-weight: 500;
@@ -148,7 +149,31 @@ html, body {
   position: relative;
   margin: -111px 0 0 0;
   z-index: 2;
-/*	height: 300px;*/
+}
+
+.page__advantages{
+
+}
+/*--------------HEADER-BLOCK------------*/
+
+.header-block {
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.header-block__title {
+  font-size: 40px;
+  line-height: 142%;
+  font-weight: 700;
+}
+
+.header-block__title:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+.header-block__sub-title {
+  line-height: 142%;
+  color: #737373;
 }
 
 /* FOOTER */
@@ -275,8 +300,6 @@ html, body {
 
 /* services */
 
-
-
 @media (min-width: 670px) {
   .services__body {
 		display: flex;
@@ -342,3 +365,56 @@ html, body {
   letter-spacing: 0.1px;
 }
 
+/* -------------------- */
+
+.advantages {
+  padding: 80px 0;
+}
+
+.advantages__container {
+
+}
+
+.advantages__header {
+  margin: 0 0 50px 0;
+}
+
+.advantages__body {
+  display: flex;
+  margin: 0 -15px;
+}
+
+.advantages__column {
+  padding: 15px;
+  flex: 0 1 25%;
+}
+
+.advantages__item {
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.advantages__item > *:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+.advantages__icon {
+  height: 48px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.advantages__value {
+  font-size: 40px;
+  line-height: 142%;
+}
+
+.advantages__text {
+  letter-spacing: 0.1px;
+  color: #737373;
+  font-size: 16px;
+  line-height: 150%;
+}
