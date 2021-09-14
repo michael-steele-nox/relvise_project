@@ -173,6 +173,12 @@ html, body {
   }
 }
 
+@media (max-width: 479px) {
+  .main-block__body {
+    padding: 115px 0 160px 0;
+  }
+}
+
 .main-block__body > *:not(:last-child) {
   margin: 0 0 35px 0;
 }
