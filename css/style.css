@@ -152,8 +152,11 @@ html, body {
 }
 
 .page__advantages{
-
 }
+
+.page__practice {
+}
+
 /*--------------HEADER-BLOCK------------*/
 
 .header-block {
@@ -459,4 +462,101 @@ html, body {
   color: #737373;
   font-size: 16px;
   line-height: 150%;
+}
+
+/* --------------------------- */
+
+.practice {
+  margin: 125px 0 80px 0;
+}
+
+@media (max-width: 992px) {
+  .practice {
+    margin: 40px 0 80px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .practice {
+    margin: 0px 0 40px 0;
+  }
+}
+
+.practice__header {
+  margin: 0 0 45px 0;
+}
+
+@media (max-width: 767px) {
+  .practice__header {
+    margin: 0px 0 25px 0;
+  }
+}
+
+.practice__body {
+  margin: 0 -20px -30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.practice__column {
+  padding: 0 20px;
+  margin: 0 0 30px 0;
+  flex: 0 1 25%;
+}
+
+@media (max-width: 1050px) {
+  .practice__column {
+    flex: 0 1 50%;
+  }
+}
+
+@media (max-width: 630px) {
+  .practice__column {
+    flex: 0 1 100%;
+  }
+}
+
+.practice__item {
+}
+
+.item-practice {
+  background-color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-practice__content {
+  padding: 30px;
+  flex: 1 1 auto;
+}
+
+.item-practice__link {
+  color: inherit;
+  display: inline-block;
+}
+
+.item-practice__link:hover {
+  text-decoration: underline;
+}
+
+.item-practice__link:not(:last-child) {
+  margin: 0 0 15px 0;
+}
+
+.item-practice__title {
+  letter-spacing: 0.1px;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 700;
+}
+
+.item-practice__text {
+  color: #737373;
+  line-height: 142%;
+}
+
+.item-practise__image {
+  display: block;
+  padding: 0 0 69% 0;
 }
